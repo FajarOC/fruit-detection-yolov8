@@ -13,10 +13,12 @@ Deteksi buah otomatis menggunakan YOLOv8 yang dibungkus dalam aplikasi Streamlit
 ---
 
 ## 📂 Struktur Proyek
+
+```
 fruit-detection-yolov8/
 │
 ├── .ipynb_checkpoints/       # (Otomatis Jupyter, dapat diabaikan)
-├── datasets/                 # Dataset buah untuk training (optional, sebaiknya besar tidak di-push)
+├── datasets/                 # Dataset buah untuk training (optional)
 ├── images/                   # Gambar untuk uji coba dan hasil deteksi
 ├── runs/detect/              # Hasil deteksi YOLOv8 (optional)
 │
@@ -27,6 +29,8 @@ fruit-detection-yolov8/
 ├── fruits.ipynb              # Notebook untuk training/eksperimen YOLOv8
 ├── requirements.txt          # Dependensi utama
 └── yolov8n.pt                # Pre-trained YOLOv8n (optional untuk transfer learning)
+```
+
 
 ## 🚀 Fitur
 ✅ Deteksi buah (jeruk, apel, pisang, dll) dengan YOLOv8.
