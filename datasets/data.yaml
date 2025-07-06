@@ -1,0 +1,13 @@
+train: .../train/images
+val:  .../valid/images
+test:  .../test/images
+
+nc: 9
+names: ['Persik', 'Lemon', 'Jeruk Mandarin', 'Apel Gala', 'Apel Granny Smith', 'Apel Merah', 'Jeruk', 'Pir', 'Pisang']
+
+roboflow:
+  workspace: lorddanietom
+  project: proyecto-final-fgctm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lorddanietom/proyecto-final-fgctm/dataset/1
