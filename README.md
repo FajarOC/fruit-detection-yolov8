@@ -9,6 +9,7 @@ Deteksi buah otomatis menggunakan YOLOv8 yang dibungkus dalam aplikasi Streamlit
 ✅ Cocok untuk belajar pipeline Computer Vision YOLOv8
 
 📂 Struktur Proyek
+```
 fruit-detection-yolov8/
 │
 ├── .ipynb_checkpoints/       # (Otomatis Jupyter, dapat diabaikan)
@@ -23,6 +24,7 @@ fruit-detection-yolov8/
 ├── fruits.ipynb              # Notebook untuk training/eksperimen YOLOv8
 ├── requirements.txt          # Dependensi utama
 └── yolov8n.pt                # Pre-trained YOLOv8n (optional untuk transfer learning)
+```
 ⚙️ Cara Menjalankan
 1️⃣ Jalankan Lokal
 Install dependency dan jalankan Streamlit:
@@ -43,6 +45,7 @@ Run container:
 
 docker run -p 8501:8501 fruit-app
 Buka browser di:
+
 
 http://localhost:8501
 🏗️ Training YOLOv8
